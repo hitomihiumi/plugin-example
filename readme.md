@@ -50,7 +50,7 @@ Now for the plugin functions to be displayed correctly in the LazyCanvas class y
 import { LazyCanvasPlugin } from "./Plugin";
 import { LazyCanvas } from "@hitomihiumi/lazy-canvas";
 
-export { LazyCanvasPlugin };
+export { LazyCanvasPlugin as Plugin };
 
 declare module "@hitomihiumi/lazy-canvas" {
     interface LazyCanvas {
